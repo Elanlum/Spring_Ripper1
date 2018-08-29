@@ -16,7 +16,7 @@ public class Config {
     }
 
     @Bean
-    public ColorFrame frame(){
+    public ColorFrame frame() {
         return new ColorFrame() {
             @Override
             protected Color getColor() {
